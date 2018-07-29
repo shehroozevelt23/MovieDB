@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/download"
+            android:id="@+id/movie_final_pic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_final_pic"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/movie_final_title"
+            android:text="HELLO!"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_final_title"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/release_date_final"
+            android:textSize="20sp"
+            android:layout_marginBottom="18dp"
+            android:text="HELLO 2!"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/release_date_final"
+            android:id="@+id/vote_count"
+            android:text="Vote Count: "
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO 4!"
+            android:layout_below="@id/release_date_final"
+            android:textSize="18sp"
+            android:id="@+id/vote_count_final"
+            android:layout_toRightOf="@id/vote_count"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote Average: "
+            android:textSize="18sp"
+            android:layout_marginLeft="28dp"
+            android:id="@+id/vote_average"
+            android:layout_below="@id/release_date_final"
+            android:layout_toRightOf="@id/vote_count_final"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HELLO"
+            android:id="@+id/vote_average_final"
+            android:textSize="18sp"
+            android:layout_below="@id/release_date_final"
+            android:layout_toRightOf="@+id/vote_average"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/vote_count"
+            android:layout_below="@id/vote_count"
+            android:text="Original Language:"
+            android:layout_marginTop="18dp"
+            android:id="@+id/original_language"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_toRightOf="@id/original_language"
+            android:layout_below="@id/vote_count_final"
+            android:id="@+id/original_language_final"
+            android:textSize="18sp"
+            android:text="HELLO 5!"
+            android:layout_alignBottom="@id/original_language"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adult:"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/original_language_final"
+            android:layout_below="@id/vote_average"
+            android:layout_alignBottom="@+id/original_language_final"
+            android:layout_marginTop="18dp"
+            android:id="@+id/adult"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/adult"
+            android:layout_below="@+id/vote_average_final"
+            android:text="HELLO 6"
+            android:textSize="18sp"
+            android:layout_alignBottom="@id/adult"
+            android:layout_marginTop="18dp"
+            android:id="@+id/adult_final"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FINAL HELLO!"
+            android:id="@+id/movie_description"
+            android:textSize="17sp"
+            android:layout_below="@id/original_language"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="13dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>
